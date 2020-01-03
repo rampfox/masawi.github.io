@@ -16,7 +16,7 @@ Package: com.rampfox.gramplus
 Version: 1.8r-299
 Section: Tweaks
 Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>11.0), firmware (<12.4.2), com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools.stash 
+Depends: firmware (>11.0), firmware (<12.4.2), com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
 Filename: ./debs/com.rampfox.inappios11.deb
 Size: 2894
@@ -25,3 +25,31 @@ Description: Instagram++. working for iOS 11.x ~ 12.x
 Name: Instagram++
 Author: Rampfox <alwiahdi@gmail.com>
 Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.gramplus
+
+Package: com.rampfox.uasharedtools
+Version: 2.2r-94
+Section: dependencies
+Maintainer: UnlimApps Inc <support@unlimapps.com>
+Depends: com.rampfox.uasharedtools.nostash, com.rampfox.uasharedtools.stash 
+Architecture: iphoneos-arm
+Filename: ./dependencies/com.rampfox.uasharedtools.deb
+Size: 672
+MD5sum: 61343b122411318868863f20160f0af0
+Description: ++ dependencies
+Name: uasharedtools
+Author: UnlimApps Inc <support@unlimapps.com>
+Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools
+
+Package: com.rampfox.uasharedtools.nostash
+Version: 2.2r-94
+Section: dependencies
+Maintainer: UnlimApps Inc <support@unlimapps.com>
+Depends: mobilesubstrate, firmware (>=11.0) 
+Architecture: iphoneos-arm
+Filename: ./dependencies/com.rampfox.uasharedtools.nostash.deb
+Size: 19862136
+MD5sum: 77fe0e2f8ae8c223bf4e355005962968
+Description: ++ dependencies
+Name: uasharedtools (iOS 11)
+Author: UnlimApps Inc <support@unlimapps.com>
+Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools.nostash
