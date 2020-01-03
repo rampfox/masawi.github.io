@@ -11,3 +11,17 @@ Description: This is an iAP. working for iOS 11.x ~ 12.x
 Name: inappios11
 Author: Rampfox <alwiahdi@gmail.com>
 Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.inappios11
+
+Package: com.rampfox.gramplus
+Version: 1.8r-299
+Section: Tweaks
+Maintainer: Rampfox <alwiahdi@gmail.com>
+Depends: firmware (>11.0), firmware (<12.4.2)
+Architecture: iphoneos-arm
+Filename: ./debs/com.rampfox.inappios11.deb
+Size: 2894
+MD5sum: 27d3fd456668b86df88ea3e424cc40d5
+Description: Instagram++. working for iOS 11.x ~ 12.x
+Name: Instagram++
+Author: Rampfox <alwiahdi@gmail.com>
+Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.gramplus
