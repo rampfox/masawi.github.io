@@ -16,7 +16,7 @@ Package: com.rampfox.gramplus
 Version: 1.8r-299
 Section: Tweaks
 Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>11.0), firmware (<12.4.2)
+Depends: firmware (>11.0), firmware (<12.4.2), com.rampfox.uasharedtools_2.2r-94, com.rampfox.uasharedtools.nostash_2.2r-94
 Architecture: iphoneos-arm
 Filename: ./debs/com.rampfox.inappios11.deb
 Size: 2894
