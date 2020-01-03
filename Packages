@@ -1,0 +1,13 @@
+Package: com.masawi.inappios11
+Version: 1.0
+Section: Tweaks
+Maintainer: Masawi <alwiahdi@gmail.com>
+Depends: firmware (>11.0), firmware (<12.4.2)
+Architecture: iphoneos-arm
+Filename: ./debs/com.masawi.inappios11.deb
+Size: 2894
+MD5sum: c141e59c8de5e743184946c7bb8c51a8
+Description: This is an iAP. working for iOS 11.x ~ 12.x
+Name: inappios11
+Author: Masawi <alwiahdi@gmail.com>
+Depiction: https://masawi.github.io/masawi.github.io/depictions/?p=com.masawi.inappios11
