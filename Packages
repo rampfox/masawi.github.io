@@ -1,55 +1,36 @@
-Package: com.rampfox.inappios11
-Version: 1.0
-Section: Tweaks
-Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>11.0), firmware (<12.4.2)
+Package: com.kael.inapp
+Version: 0.0.1-2+debug
 Architecture: iphoneos-arm
+Maintainer: System Administrator
+Installed-Size: 120
+Depends: mobilesubstrate
 Filename: ./debs/com.rampfox.inappios11.deb
 Size: 2894
 MD5sum: c141e59c8de5e743184946c7bb8c51a8
-Description: This is an iAP. working for iOS 11.x ~ 12.x
-Name: inappios11
-Author: Rampfox <alwiahdi@gmail.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.inappios11
-
-Package: com.rampfox.gramplus
-Version: 1.8r-299
+SHA1: 97bf95d6de75e0a3ef41025527b5337e768660df
+SHA256: 608ff7889fc9239559a2de8cf5ea93e7baadb9a58b85d8257e617fee2d7251ac
 Section: Tweaks
-Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>=11.0), com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
+Description: An awesome MobileSubstrate tweak!
+Author: System Administrator
+Name: InApp
+
+Package: com.unlimapps.gramplus
+Version: 1.8r-299
 Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
 Filename: ./debs/com.rampfox.gramplus.deb
 Size: 9674410
 MD5sum: 27d3fd456668b86df88ea3e424cc40d5
-Description: Instagram++. working for iOS 11.x ~ 12.x
-Name: Instagram++
-Author: Rampfox <alwiahdi@gmail.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.gramplus
+SHA1: 8d71c22fbb2d532c5f90127ea1ca798048894122
+SHA256: 651e2223bcd0d21165a71c713f8f7fd34b8124176895cba77a6c80cfd35efbc9
+Section: Tweaks
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Description: Download & Copy Instagram media
+Tag: purpose::extension, ios7support::1, ios8support::1
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Dev: i4iphones
+Name: Instagram ++
 
-Package: com.rampfox.uasharedtools
-Version: 2.2r-94
-Section: dependencies
-Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
-Architecture: iphoneos-arm
-Filename: ./dependencies/com.rampfox.uasharedtools.deb
-Size: 672
-MD5sum: 61343b122411318868863f20160f0af0
-Description: ++ dependencies
-Name: uasharedtools
-Author: UnlimApps Inc <support@unlimapps.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools
-
-Package: com.rampfox.uasharedtools.nostash
-Version: 2.2r-94
-Section: dependencies
-Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: mobilesubstrate, firmware (>=11.0) 
-Architecture: iphoneos-arm
-Filename: ./dependencies/com.rampfox.uasharedtools.nostash.deb
-Size: 19862136
-MD5sum: 77fe0e2f8ae8c223bf4e355005962968
-Description: ++ dependencies
-Name: uasharedtools (iOS 11)
-Author: UnlimApps Inc <support@unlimapps.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools.nostash
