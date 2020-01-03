@@ -16,9 +16,9 @@ Package: com.rampfox.gramplus
 Version: 1.8r-299
 Section: Tweaks
 Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>11.0), firmware (<12.4.2), com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
+Depends: firmware (>=11.0), com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
-Filename: ./debs/com.rampfox.inappios11.deb
+Filename: ./debs/com.rampfox.gramplus.deb
 Size: 2894
 MD5sum: 27d3fd456668b86df88ea3e424cc40d5
 Description: Instagram++. working for iOS 11.x ~ 12.x
@@ -30,7 +30,7 @@ Package: com.rampfox.uasharedtools
 Version: 2.2r-94
 Section: dependencies
 Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: com.rampfox.uasharedtools.nostash, com.rampfox.uasharedtools.stash 
+Depends: com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
 Filename: ./dependencies/com.rampfox.uasharedtools.deb
 Size: 672
