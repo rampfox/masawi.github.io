@@ -16,7 +16,7 @@ Package: com.rampfox.gramplus
 Version: 1.8r-299
 Section: Tweaks
 Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>=11.0), com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
+Depends: firmware (>=11.0), com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
 Filename: ./debs/com.rampfox.gramplus.deb
 Size: 2894
@@ -30,7 +30,7 @@ Package: com.rampfox.uasharedtools
 Version: 2.2r-94
 Section: dependencies
 Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools.nostash 
+Depends: com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
 Filename: ./dependencies/com.rampfox.uasharedtools.deb
 Size: 672
