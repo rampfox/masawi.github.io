@@ -1,0 +1,62 @@
+Package: com.unlimapps.gramplus
+Version: 1.8r-299
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
+Filename: ./debs/com.unlimapps.gramplus_1.8r-299_iphoneos-arm.deb
+Size: 9674410
+MD5sum: 27d3fd456668b86df88ea3e424cc40d5
+SHA1: 8d71c22fbb2d532c5f90127ea1ca798048894122
+SHA256: 651e2223bcd0d21165a71c713f8f7fd34b8124176895cba77a6c80cfd35efbc9
+Section: Tweaks
+Homepage: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Description: Download & Copy Instagram media
+Tag: purpose::extension, ios7support::1, ios8support::1
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: http://beta.unlimapps.com/depiction/com.unlimapps.gramplus/
+Dev: i4iphones
+Name: Instagram ++
+
+Package: com.unlimapps.uasharedtools
+Version: 2.2r-94
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: com.unlimapps.uasharedtools.nostash | com.unlimapps.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.unlimapps.uasharedtools_2.2r-94_iphoneos-arm.deb
+Size: 672
+MD5sum: 61343b122411318868863f20160f0af0
+SHA1: 88614137ffa452d0afc8e726b8996f0d0603dec7
+SHA256: 2e60afd7ba17f1ed88bce107c0e5a8ba00b12335d9fdbd7b850802e9734c2a1d
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools
+
+Package: com.unlimapps.uasharedtools.nostash
+Version: 2.2r-94
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Provides: com.unlimapps.uasharedtools.virtual
+Filename: ./debs/com.unlimapps.uasharedtools.nostash_2.2r-94_iphoneos-arm.deb
+Size: 19862136
+MD5sum: 77fe0e2f8ae8c223bf4e355005962968
+SHA1: 88d1120f6269d69fd151cd14008631769fd2d373
+SHA256: d76c3dae69ddcb5f60e2033f588cf8f8194cf54889392a9fc0b2fed65d088157
+Section: Development
+Homepage: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://beta.unlimapps.com/depiction/com.unlimapps.uasharedtools/
+Dev: i4iphones
+Name: uasharedtools (iOS 11)
+
