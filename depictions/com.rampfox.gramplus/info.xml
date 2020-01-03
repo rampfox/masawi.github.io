@@ -1,0 +1,32 @@
+<package>
+	<id>com.rampfox.gramplus</id>
+	<name>gramplus</name>
+	<version>1.8r-299</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>12.4.2</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate, com.rampfox.uasharedtools_2.2r-94, com.rampfox.uasharedtools.nostash_2.2r-94</package>
+	</dependencies>
+	<descriptionlist>
+		<description>This package compatible with iOS 11.x ~ 12.x</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
+		</link>
+	</links>
+</package>
