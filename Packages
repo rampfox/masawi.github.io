@@ -19,7 +19,7 @@ Maintainer: Rampfox <alwiahdi@gmail.com>
 Depends: firmware (>=11.0), com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
 Filename: ./debs/com.rampfox.gramplus.deb
-Size: 2894
+Size: 9674410
 MD5sum: 27d3fd456668b86df88ea3e424cc40d5
 Description: Instagram++. working for iOS 11.x ~ 12.x
 Name: Instagram++
