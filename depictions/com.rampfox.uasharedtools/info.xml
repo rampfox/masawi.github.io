@@ -1,0 +1,24 @@
+<package>
+	<id>com.rampfox.uasharedtools</id>
+	<name>uasharedtools</name>
+	<version>2.2r-94</version>
+	<compatibility>
+		<firmware>
+			<miniOS>11.0</miniOS>
+			<maxiOS>12.4.4</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>shared tools for unlimapps tweaks</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>2.2r-94</change>
+	</changelog>
+	<links></links>
+</package>
