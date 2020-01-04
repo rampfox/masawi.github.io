@@ -1,3 +1,17 @@
+Package: com.rampfox.crackplus
+Version: 3.7
+Architecture: iphoneos-arm
+Maintainer: rampfox <alwiahdi@live.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.rampfox.crackplus_3.7_iphoneos-arm.deb
+Size: 95556
+MD5sum: 8c30370e65caf31eec53394583654f3d
+SHA1: cebb5cb7c37293b277313262f499fd920988d145
+SHA256: aa010b037ed3129df2a00e6e444ec240746a8317bf34326e68b195fbbfaa01d1
+Section: Tweaks
+Author: Othman Almutari <http://kiiimo.org>
+Name: CrackPlus ++
+
 Package: com.rampfox.gramplus
 Version: 1.8r-299
 Architecture: iphoneos-arm
