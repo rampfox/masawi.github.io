@@ -9,6 +9,7 @@ MD5sum: 8c30370e65caf31eec53394583654f3d
 SHA1: cebb5cb7c37293b277313262f499fd920988d145
 SHA256: aa010b037ed3129df2a00e6e444ec240746a8317bf34326e68b195fbbfaa01d1
 Section: Tweaks
+Description: crack for unlimapps tweaks
 Author: Othman Almutari <http://kiiimo.org>
 Name: CrackPlus ++
 
