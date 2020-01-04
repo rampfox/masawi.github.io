@@ -1,55 +1,78 @@
-Package: com.rampfox.inappios11
-Version: 1.0
-Section: Tweaks
-Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>11.0), firmware (<12.4.2)
-Architecture: iphoneos-arm
-Filename: ./debs/com.rampfox.inappios11.deb
-Size: 2894
-MD5sum: c141e59c8de5e743184946c7bb8c51a8
-Description: This is an iAP. working for iOS 11.x ~ 12.x
-Name: inappios11
-Author: Rampfox <alwiahdi@gmail.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.inappios11
-
 Package: com.rampfox.gramplus
 Version: 1.8r-299
-Section: Tweaks
-Maintainer: Rampfox <alwiahdi@gmail.com>
-Depends: firmware (>=11.0), com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
-Filename: ./debs/com.rampfox.gramplus.deb
-Size: 9674410
-MD5sum: 27d3fd456668b86df88ea3e424cc40d5
-Description: Instagram++. working for iOS 11.x ~ 12.x
-Name: Instagram++
-Author: Rampfox <alwiahdi@gmail.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/depictions/?p=com.rampfox.gramplus
+Maintainer: Rampfox <alwiahdi@live.com>
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
+Filename: ./debs/com.rampfox.gramplus_1.8r-299_iphoneos-arm.deb
+Size: 9622720
+MD5sum: 75778d55e97f454f913c04e8db667168
+SHA1: de662f6af82f84772577a425a7c5a053a5a3fce0
+SHA256: 2df08af048ef9630118f8f5a18e3f6bf21fdbbe11bf0e667c072d9a5c845db9a
+Section: Tweaks
+Homepage: https://rampfox.github.io/depictions/?p=com.rampfox.gramplus
+Description: Download & Copy Instagram media
+Tag: purpose::extension, ios7support::1, ios8support::1
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://rampfox.github.io/depictions/?p=com.rampfox.gramplus
+Dev: i4iphones
+Name: Instagram ++
+
+Package: com.rampfox.inapp
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm
+Maintainer: System Administrator
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/inappios11.deb
+Size: 4280
+MD5sum: bef227c60f703ab193c7a1348e0ba12a
+SHA1: 835edda7068509b7cbb93526967bc868a0b12ade
+SHA256: dd34fe3dae885a4bd519fa907eecf74c5706db2fbb6a1fd21b814b619a70ddeb
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: System Administrator
+Name: InApp
 
 Package: com.rampfox.uasharedtools
 Version: 2.2r-94
-Section: dependencies
-Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: com.rampfox.uasharedtools, com.rampfox.uasharedtools.nostash 
 Architecture: iphoneos-arm
-Filename: ./dependencies/com.rampfox.uasharedtools.deb
-Size: 672
-MD5sum: 61343b122411318868863f20160f0af0
-Description: ++ dependencies
+Maintainer: Rampfox <alwiahdi@live.com>
+Depends: com.rampfox.uasharedtools.nostash | com.rampfox.uasharedtools.stash
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools
+Filename: ./debs/com.rampfox.uasharedtools_2.2r-94_iphoneos-arm.deb
+Size: 2016
+MD5sum: ff5724988ad132e4556d56cdefce37da
+SHA1: a5a9d1d268e4d8d30932edab15a589b085f42f5f
+SHA256: 76c12f9459e2b446632aa49d375169db957e191a1a3660e5f482a736ba7d8ad0
+Section: Tweaks
+Homepage: https://rampfox.github.io/depictions/?p=com.rampfox.uasharedtools
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://rampfox.github.io/depictions/?p=com.rampfox.uasharedtools
+Dev: i4iphones
 Name: uasharedtools
-Author: UnlimApps Inc <support@unlimapps.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools
 
 Package: com.rampfox.uasharedtools.nostash
 Version: 2.2r-94
-Section: dependencies
-Maintainer: UnlimApps Inc <support@unlimapps.com>
-Depends: mobilesubstrate, firmware (>=11.0) 
 Architecture: iphoneos-arm
-Filename: ./dependencies/com.rampfox.uasharedtools.nostash.deb
-Size: 19862136
-MD5sum: 77fe0e2f8ae8c223bf4e355005962968
-Description: ++ dependencies
+Maintainer: Rampfox <alwiahdi@live.com>
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.stash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.rampfox.uasharedtools.stash, com.rampfox.uasharedtools (<< 2.2r-36)
+Provides: com.rampfox.uasharedtools.virtual
+Filename: ./debs/com.rampfox.uasharedtools.nostash_2.2r-94_iphoneos-arm.deb
+Size: 19770584
+MD5sum: 3d73742e0a8c03db6dfbf2c582ace92c
+SHA1: 2adc6e1003f0028002383cd69a2cc3c740673e62
+SHA256: f9a66dfd616535ae109a05b9165b0c91f806b832cfa8d478e54f68adda2be065
+Section: Tweaks
+Homepage: https://rampfox.github.io/depictions/?p=com.rampfox.uasharedtools
+Description: shared tools for unlimapps tweaks
+Tag: purpose::library, role::developer
+Author: UnlimApps Inc. <support@unlimapps.com>
+Depiction: https://rampfox.github.io/depictions/?p=com.rampfox.uasharedtools
+Dev: i4iphones
 Name: uasharedtools (iOS 11)
-Author: UnlimApps Inc <support@unlimapps.com>
-Depiction: https://rampfox.github.io/rampfox.github.io/dependencies/?p=com.rampfox.uasharedtools.nostash
+
